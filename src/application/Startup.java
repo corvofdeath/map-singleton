@@ -3,7 +3,7 @@ package application;
 import enums.TiposTriangulo;
 import figuras.*;
 
-public class StartUp {
+public class Startup {
 
     public static void main(String[] args) {
 
