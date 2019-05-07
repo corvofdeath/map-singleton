@@ -19,7 +19,6 @@ public class FiguraFactoryTest {
 		assertFalse(FiguraFactory.getQuadrado() == FiguraFactory.getQuadrado());
 	}
 	
-
 	@Test
 	public void testGetTriangulo() {
 		assertEquals(FiguraFactory.getTriangulo(TiposTriangulo.Equilatero), FiguraFactory.getTriangulo(TiposTriangulo.Equilatero));
